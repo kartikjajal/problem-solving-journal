@@ -1,0 +1,11 @@
+spring:
+  properties:
+      test: value
+
+
+spring:
+  security:
+    secure-path: /onboarding/internal,
+    alg: SHA_256
+    jwks-url: localhost:8888/ping
+    key: xxx-xxx-xxx
